@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">OMDbApp</string>
+
+    <!-- Search -->
+    <string name="search_title">Movie search</string>
+    <string name="search_hint">Search movies, e.g. \"love\"</string>
+    <string name="search_initial_message">Type a keyword to find movies</string>
+    <string name="search_no_results">No movies found for \"%1$s\"</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_empty">No favorites yet.\nTap the heart on a movie to add it here.</string>
+
+    <!-- Details -->
+    <string name="details_title">Details</string>
+    <string name="details_type_label">Type</string>
+    <string name="details_year_label">Year</string>
+    <string name="details_add_to_favorites">Add to favorites</string>
+    <string name="details_remove_from_favorites">Remove from favorites</string>
+
+    <!-- Movie types -->
+    <string name="movie_type_movie">Movie</string>
+    <string name="movie_type_series">Series</string>
+    <string name="movie_type_episode">Episode</string>
+    <string name="movie_type_game">Game</string>
+    <string name="movie_type_unknown">Unknown</string>
+
+    <!-- Actions -->
+    <string name="action_retry">Retry</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_clear_search">Clear search</string>
+    <string name="cd_navigate_back">Navigate back</string>
+    <string name="cd_open_favorites">Open favorites</string>
+    <string name="cd_add_to_favorites">Add %1$s to favorites</string>
+    <string name="cd_remove_from_favorites">Remove %1$s from favorites</string>
+    <string name="cd_poster">Poster of %1$s</string>
+
+    <!-- Errors -->
+    <string name="error_no_internet">No internet connection. Check your network and try again.</string>
+    <string name="error_request_timeout">The request timed out. Please try again.</string>
+    <string name="error_unauthorized">Invalid API key or the daily request limit was reached.</string>
+    <string name="error_too_many_requests">Too many requests. Please wait a moment.</string>
+    <string name="error_not_found">Movie not found.</string>
+    <string name="error_server">The server is having trouble. Please try again later.</string>
+    <string name="error_serialization">Received an unexpected response from the server.</string>
+    <string name="error_disk_full">Your device storage is full.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="error_too_many_results">Too many results. Try a more specific keyword.</string>
+</resources>
